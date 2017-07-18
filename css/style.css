@@ -1,0 +1,144 @@
+body {
+	position: relative;
+
+	
+}
+
+.content {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+
+.game {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.tab {
+	width: 100%;
+	max-width: 650px;
+	height: 650px;
+	margin: 0 auto;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+
+.blue {
+	background: blue;
+	font-size: 40pt;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+    border:1px solid blue;
+    margin: 2px;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.green {
+	background: green;
+	font-size: 40pt;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+    border:1px solid blue;
+    margin: 2px;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grey {
+	background: grey;
+	font-size: 40pt;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+    border:1px solid blue;
+    margin: 2px;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.buttons {
+	position: absolute;
+	left: 70%;
+	top: 10%;
+}
+
+.input {
+	width: 15px;
+    height: 15px;
+}
+
+.but {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+   position: absolute;
+   left:10%;
+   top:12%;
+
+}
+
+input {
+	width: 30px;
+	height: 30px;
+	margin:50px 48px;
+	background: red;
+	color: red;
+
+}
+.field {
+	
+   
+}
+
+.gameField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 502px;
+    height: 502px;
+    margin: 5%;
+    border: 3px solid blue;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 5px;
+}
+
